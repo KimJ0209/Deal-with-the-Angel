@@ -4079,7 +4079,15 @@ h1 {
     font-size: 25px;
     color: white;
 }
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+}
 
+.title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+}
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 .story-opening{
     display:block;
@@ -4114,9 +4122,9 @@ h1 {
 }</style></head>
     <body>
         <!--Between lines 8-12, put the opening of your story-->
-        <div class="title">The deal</div>
+        <div class="title">The Deal</div>
         <div class="story-opening">
-            <img src="https://t3.ftcdn.net/jpg/01/85/55/44/360_F_185554469_T3TrOWPsW8b9BGwBkGCNP2okOkTBDhIX.jpg">
+            <img src="https://t3.ftcdn.net/jpg/01/85/55/44/360_F_185554469_T3TrOWPsW8b9BGwBkGCNP2okOkTBDhIX.jpg" alt="red carpet with flashing lights">
             <h1>You have a craving for fame. As you sleep thinking about how different your life would be if you were famous you start to dream about it but it felt a little too real... You wake up to find youre in a black void. As your trying to understand what is going on. You stand up only to hear footsteps coming towards your way.
             </h1>
         </div>
@@ -4129,32 +4137,32 @@ h1 {
         <div class="option-one-screen">
             <h1>A mysterious figure fades out from the dark void. They are very tall, they're wearing a mask and a tuxedo to cover themselves. They stand infront of you. They tell you
                 "I know what you want fame, I can help you with that. Will you accept?</h1>
-            <img src="https://img.freepik.com/premium-photo/mysterious-silhouette-figure-standing-void-darkness-with-black-background_933434-1431.jpg">
+            <img src="https://img.freepik.com/premium-photo/mysterious-silhouette-figure-standing-void-darkness-with-black-background_933434-1431.jpg" alt="Dark mysterious figure in a void">
             <button class="option-three"> Yes </button>
             <button class="option-four"> No </button>
         </div>
         
          <div class="option-three-screen">
             <h1>The figure shakes your hand and disapears into the distance </h1>
-            <img src="https://media.istockphoto.com/id/136341204/photo/man-startled-awake-by-intruder.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=-EkKYW1pIu_CI--HERCa8YMnGnvS33dJH_B5YlWS6ww=">
+            <img src="https://media.istockphoto.com/id/136341204/photo/man-startled-awake-by-intruder.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=-EkKYW1pIu_CI--HERCa8YMnGnvS33dJH_B5YlWS6ww=" alt="Man wakes up from nightmare">
         </div>
         <!--Between lines 24-27, put the part of the story the user will see if they picked option two-->
       
         <div class="option-two-screen">
             <h1>You ran and ran until you felt your legs give up on you. As your about to fall onto the ground, you wake up in a cold sweat.</h1>
-            <img src="https://media.istockphoto.com/id/1076024666/video/the-man-with-a-nightmare-wake-up-near-the-woman.jpg?s=640x640&amp;k=20&amp;c=6Tqi_loZ65xV9riumAmL4HAk2nwdV0SY4Xp5v285jLU=">
+            <img src="https://media.istockphoto.com/id/1076024666/video/the-man-with-a-nightmare-wake-up-near-the-woman.jpg?s=640x640&amp;k=20&amp;c=6Tqi_loZ65xV9riumAmL4HAk2nwdV0SY4Xp5v285jLU=" alt="Man wakes up in a cold sweat">
             <button class="option-five">Get up</button>
         </div>
         <!--Between lines 29-32, put the end of the story if the user chose option 1-->
         <div class="option-one-end">
             <h1>Put final part of your story based on if they chosen yes at the beginning </h1>
-            <img src="https://www.independentmusicadvice.com/wp-content/uploads/2011/05/how-to-become-famous.jpg">
+            <img src="https://www.independentmusicadvice.com/wp-content/uploads/2011/05/how-to-become-famous.jpg" alt="Hollywood star of fame">
         </div>
         <!--Between lines 29-32, put the end of the story if the user chose option 2-->
         <div class="option-two-end">
             <h1>
             </h1>
-            <img src="https://static01.nyt.com/images/2021/07/29/well/29WELL-SAD-DAY/29WELL-SAD-DAY-mediumSquareAt3X.jpg">
+            <img src="https://static01.nyt.com/images/2021/07/29/well/29WELL-SAD-DAY/29WELL-SAD-DAY-mediumSquareAt3X.jpg" alt="Stressed man got his office job">
         </div>
     
 <script>
@@ -4195,4 +4203,4 @@ buttonThree.onclick = function () {
   optionTwo.style.display = "block";
   title.innerHTML = "if you choose Yes";
 };
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbImJvZHkiLCJkb2N1bWVudCIsInF1ZXJ5U2VsZWN0b3IiLCJ0aXRsZSIsIm9wZW5pbmciLCJidXR0b25zIiwiYnV0dG9uT25lIiwiYnV0dG9uVHdvIiwib3B0aW9uT25lIiwib3B0aW9uVHdvIiwiYnV0dG9uVGhyZWUiLCJidXR0b25Gb3VyIiwib3B0aW9uVGhyZWUiLCJvcHRpb25PbmVJbWciLCJvcHRpb25PbmVFbmQiLCJvbmNsaWNrIiwic3R5bGUiLCJkaXNwbGF5IiwiaW5uZXJIVE1MIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBLElBQUlBLElBQUksR0FBR0MsUUFBUSxDQUFDQyxhQUFULENBQXVCLE1BQXZCLENBQVg7QUFDQSxJQUFJQyxLQUFLLEdBQUdGLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixRQUF2QixDQUFaO0FBQ0EsSUFBSUUsT0FBTyxHQUFHSCxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsZ0JBQXZCLENBQWQ7QUFDQSxJQUFJRyxPQUFPLEdBQUdKLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixVQUF2QixDQUFkO0FBQ0EsSUFBSUksU0FBUyxHQUFHTCxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsYUFBdkIsQ0FBaEI7QUFDQSxJQUFJSyxTQUFTLEdBQUdOLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixhQUF2QixDQUFoQjtBQUNBLElBQUlNLFNBQVMsR0FBR1AsUUFBUSxDQUFDQyxhQUFULENBQXVCLG9CQUF2QixDQUFoQjtBQUNBLElBQUlPLFNBQVMsR0FBR1IsUUFBUSxDQUFDQyxhQUFULENBQXVCLG9CQUF2QixDQUFoQjtBQUNBLElBQUlRLFdBQVcsR0FBR1QsUUFBUSxDQUFDQyxhQUFULENBQXdCLGVBQXhCLENBQWxCO0FBQ0EsSUFBSVMsVUFBVSxHQUFHVixRQUFRLENBQUNDLGFBQVQsQ0FBd0IsY0FBeEIsQ0FBakI7QUFDQSxJQUFJVSxXQUFXLEdBQUdYLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixzQkFBdkIsQ0FBbEI7QUFDQSxJQUFJVyxZQUFZLEdBQUdaLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixpQkFBdkIsQ0FBbkI7QUFDQSxJQUFJWSxZQUFZLEdBQUdiLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixpQkFBdkIsQ0FBbkI7QUFFQTs7QUFFQUksU0FBUyxDQUFDUyxPQUFWLEdBQW9CLFlBQVc7QUFDM0JYLEVBQUFBLE9BQU8sQ0FBQ1ksS0FBUixDQUFjQyxPQUFkLEdBQXdCLE1BQXhCO0FBQ0FaLEVBQUFBLE9BQU8sQ0FBQ1csS0FBUixDQUFjQyxPQUFkLEdBQXdCLE1BQXhCO0FBQ0FULEVBQUFBLFNBQVMsQ0FBQ1EsS0FBVixDQUFnQkMsT0FBaEIsR0FBMEIsT0FBMUI7QUFDQWQsRUFBQUEsS0FBSyxDQUFDZSxTQUFOLEdBQWtCLG9CQUFsQjtBQUNILENBTEQ7O0FBT0FYLFNBQVMsQ0FBQ1EsT0FBVixHQUFvQixZQUFXO0FBQzNCWCxFQUFBQSxPQUFPLENBQUNZLEtBQVIsQ0FBY0MsT0FBZCxHQUF3QixNQUF4QjtBQUNBWixFQUFBQSxPQUFPLENBQUNXLEtBQVIsQ0FBY0MsT0FBZCxHQUF3QixNQUF4QjtBQUNBUixFQUFBQSxTQUFTLENBQUNPLEtBQVYsQ0FBZ0JDLE9BQWhCLEdBQTBCLE9BQTFCO0FBQ0FkLEVBQUFBLEtBQUssQ0FBQ2UsU0FBTixHQUFrQixVQUFsQjtBQUNILENBTEQ7O0FBT0FSLFdBQVcsQ0FBQ0ssT0FBWixHQUFzQixZQUFXO0FBQzdCWCxFQUFBQSxPQUFPLENBQUNZLEtBQVIsQ0FBY0MsT0FBZCxHQUF3QixNQUF4QjtBQUNBWixFQUFBQSxPQUFPLENBQUNXLEtBQVIsQ0FBY0MsT0FBZCxHQUF3QixNQUF4QjtBQUNBUixFQUFBQSxTQUFTLENBQUNPLEtBQVYsQ0FBZ0JDLE9BQWhCLEdBQTBCLE9BQTFCO0FBQ0FkLEVBQUFBLEtBQUssQ0FBQ2UsU0FBTixHQUFrQixtQkFBbEI7QUFDSCxDQUxEIiwic291cmNlc0NvbnRlbnQiOlsiLyogRGVjbGFyZSB2YXJpYWJsZXMgYmVsb3cgdG8gc2F2ZSB0aGUgZGlmZmVyZW50IHNlY3Rpb25zIChkaXZzKSBvZiB5b3VyIHN0b3J5Ki9cbmxldCBib2R5ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcImJvZHlcIik7XG5sZXQgdGl0bGUgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLnRpdGxlXCIpO1xubGV0IG9wZW5pbmcgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLnN0b3J5LW9wZW5pbmdcIik7XG5sZXQgYnV0dG9ucyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuYnV0dG9uc1wiKTtcbmxldCBidXR0b25PbmUgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLm9wdGlvbi1vbmVcIik7XG5sZXQgYnV0dG9uVHdvID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5vcHRpb24tdHdvXCIpO1xubGV0IG9wdGlvbk9uZSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIub3B0aW9uLW9uZS1zY3JlZW5cIik7XG5sZXQgb3B0aW9uVHdvID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5vcHRpb24tdHdvLXNjcmVlblwiKTtcbmxldCBidXR0b25UaHJlZSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IgKFwiLm9wdGlvbi10aHJlZVwiKTtcbmxldCBidXR0b25Gb3VyID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvciAoXCIub3B0aW9uLUZvdXJcIik7XG5sZXQgb3B0aW9uVGhyZWUgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLm9wdGlvbi10aHJlZS1zY3JlZW5cIik7XG5sZXQgb3B0aW9uT25lSW1nID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5vcHRpb24tb25lLWltZ1wiKTtcbmxldCBvcHRpb25PbmVFbmQgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLm9wdGlvbi1vbmUtZW5kXCIpO1xuXG4vKiBXaGVuIHlvdSdyZSByZWFkeSB0byBtYWtlIGV2ZW50IGhhbmRsZXJzLCB1bmNvbW1lbnQgdGhlIGNvZGUgYmVsb3cuIFRoZW4gZmlsbCBpbiB0aGUgYmxhbmtzIHdpdGggdGhlIGNvcnJlY3QgdmFyaWFibGVzISAqL1xuXG5idXR0b25PbmUub25jbGljayA9IGZ1bmN0aW9uKCkge1xuICAgIG9wZW5pbmcuc3R5bGUuZGlzcGxheSA9IFwibm9uZVwiO1xuICAgIGJ1dHRvbnMuc3R5bGUuZGlzcGxheSA9IFwibm9uZVwiO1xuICAgIG9wdGlvbk9uZS5zdHlsZS5kaXNwbGF5ID0gXCJibG9ja1wiO1xuICAgIHRpdGxlLmlubmVySFRNTCA9IFwiU3RheSB3aGVyZSB5b3VyIGF0XCI7XG59O1xuXG5idXR0b25Ud28ub25jbGljayA9IGZ1bmN0aW9uKCkge1xuICAgIG9wZW5pbmcuc3R5bGUuZGlzcGxheSA9IFwibm9uZVwiO1xuICAgIGJ1dHRvbnMuc3R5bGUuZGlzcGxheSA9IFwibm9uZVwiO1xuICAgIG9wdGlvblR3by5zdHlsZS5kaXNwbGF5ID0gXCJibG9ja1wiO1xuICAgIHRpdGxlLmlubmVySFRNTCA9IFwiUnVuIGF3YXlcIjtcbn07XG5cbmJ1dHRvblRocmVlLm9uY2xpY2sgPSBmdW5jdGlvbigpIHtcbiAgICBvcGVuaW5nLnN0eWxlLmRpc3BsYXkgPSBcIm5vbmVcIjtcbiAgICBidXR0b25zLnN0eWxlLmRpc3BsYXkgPSBcIm5vbmVcIjtcbiAgICBvcHRpb25Ud28uc3R5bGUuZGlzcGxheSA9IFwiYmxvY2tcIjtcbiAgICB0aXRsZS5pbm5lckhUTUwgPSBcImlmIHlvdSBjaG9vc2UgWWVzXCI7XG59OyJdfQ==</script></body></html>
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbImJvZHkiLCJkb2N1bWVudCIsInF1ZXJ5U2VsZWN0b3IiLCJ0aXRsZSIsIm9wZW5pbmciLCJidXR0b25zIiwiYnV0dG9uT25lIiwiYnV0dG9uVHdvIiwib3B0aW9uT25lIiwib3B0aW9uVHdvIiwiYnV0dG9uVGhyZWUiLCJidXR0b25Gb3VyIiwib3B0aW9uVGhyZWUiLCJvcHRpb25PbmVJbWciLCJvcHRpb25PbmVFbmQiLCJvbmNsaWNrIiwic3R5bGUiLCJkaXNwbGF5IiwiaW5uZXJIVE1MIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBLElBQUlBLElBQUksR0FBR0MsUUFBUSxDQUFDQyxhQUFULENBQXVCLE1BQXZCLENBQVg7QUFDQSxJQUFJQyxLQUFLLEdBQUdGLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixRQUF2QixDQUFaO0FBQ0EsSUFBSUUsT0FBTyxHQUFHSCxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsZ0JBQXZCLENBQWQ7QUFDQSxJQUFJRyxPQUFPLEdBQUdKLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixVQUF2QixDQUFkO0FBQ0EsSUFBSUksU0FBUyxHQUFHTCxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsYUFBdkIsQ0FBaEI7QUFDQSxJQUFJSyxTQUFTLEdBQUdOLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixhQUF2QixDQUFoQjtBQUNBLElBQUlNLFNBQVMsR0FBR1AsUUFBUSxDQUFDQyxhQUFULENBQXVCLG9CQUF2QixDQUFoQjtBQUNBLElBQUlPLFNBQVMsR0FBR1IsUUFBUSxDQUFDQyxhQUFULENBQXVCLG9CQUF2QixDQUFoQjtBQUNBLElBQUlRLFdBQVcsR0FBR1QsUUFBUSxDQUFDQyxhQUFULENBQXdCLGVBQXhCLENBQWxCO0FBQ0EsSUFBSVMsVUFBVSxHQUFHVixRQUFRLENBQUNDLGFBQVQsQ0FBd0IsY0FBeEIsQ0FBakI7QUFDQSxJQUFJVSxXQUFXLEdBQUdYLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixzQkFBdkIsQ0FBbEI7QUFDQSxJQUFJVyxZQUFZLEdBQUdaLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixpQkFBdkIsQ0FBbkI7QUFDQSxJQUFJWSxZQUFZLEdBQUdiLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixpQkFBdkIsQ0FBbkI7QUFFQTs7QUFFQUksU0FBUyxDQUFDUyxPQUFWLEdBQW9CLFlBQVc7QUFDM0JYLEVBQUFBLE9BQU8sQ0FBQ1ksS0FBUixDQUFjQyxPQUFkLEdBQXdCLE1BQXhCO0FBQ0FaLEVBQUFBLE9BQU8sQ0FBQ1csS0FBUixDQUFjQyxPQUFkLEdBQXdCLE1BQXhCO0FBQ0FULEVBQUFBLFNBQVMsQ0FBQ1EsS0FBVixDQUFnQkMsT0FBaEIsR0FBMEIsT0FBMUI7QUFDQWQsRUFBQUEsS0FBSyxDQUFDZSxTQUFOLEdBQWtCLG9CQUFsQjtBQUNILENBTEQ7O0FBT0FYLFNBQVMsQ0FBQ1EsT0FBVixHQUFvQixZQUFXO0FBQzNCWCxFQUFBQSxPQUFPLENBQUNZLEtBQVIsQ0FBY0MsT0FBZCxHQUF3QixNQUF4QjtBQUNBWixFQUFBQSxPQUFPLENBQUNXLEtBQVIsQ0FBY0MsT0FBZCxHQUF3QixNQUF4QjtBQUNBUixFQUFBQSxTQUFTLENBQUNPLEtBQVYsQ0FBZ0JDLE9BQWhCLEdBQTBCLE9BQTFCO0FBQ0FkLEVBQUFBLEtBQUssQ0FBQ2UsU0FBTixHQUFrQixVQUFsQjtBQUNILENBTEQ7O0FBT0FSLFdBQVcsQ0FBQ0ssT0FBWixHQUFzQixZQUFXO0FBQzdCWCxFQUFBQSxPQUFPLENBQUNZLEtBQVIsQ0FBY0MsT0FBZCxHQUF3QixNQUF4QjtBQUNBWixFQUFBQSxPQUFPLENBQUNXLEtBQVIsQ0FBY0MsT0FBZCxHQUF3QixNQUF4QjtBQUNBUixFQUFBQSxTQUFTLENBQUNPLEtBQVYsQ0FBZ0JDLE9BQWhCLEdBQTBCLE9BQTFCO0FBQ0FkLEVBQUFBLEtBQUssQ0FBQ2UsU0FBTixHQUFrQixtQkFBbEI7QUFDSCxDQUxEIiwic291cmNlc0NvbnRlbnQiOlsiLyogRGVjbGFyZSB2YXJpYWJsZXMgYmVsb3cgdG8gc2F2ZSB0aGUgZGlmZmVyZW50IHNlY3Rpb25zIChkaXZzKSBvZiB5b3VyIHN0b3J5Ki9cbmxldCBib2R5ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcImJvZHlcIik7XG5sZXQgdGl0bGUgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLnRpdGxlXCIpO1xubGV0IG9wZW5pbmcgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLnN0b3J5LW9wZW5pbmdcIik7XG5sZXQgYnV0dG9ucyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuYnV0dG9uc1wiKTtcbmxldCBidXR0b25PbmUgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLm9wdGlvbi1vbmVcIik7XG5sZXQgYnV0dG9uVHdvID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5vcHRpb24tdHdvXCIpO1xubGV0IG9wdGlvbk9uZSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIub3B0aW9uLW9uZS1zY3JlZW5cIik7XG5sZXQgb3B0aW9uVHdvID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5vcHRpb24tdHdvLXNjcmVlblwiKTtcbmxldCBidXR0b25UaHJlZSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IgKFwiLm9wdGlvbi10aHJlZVwiKTtcbmxldCBidXR0b25Gb3VyID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvciAoXCIub3B0aW9uLUZvdXJcIik7XG5sZXQgb3B0aW9uVGhyZWUgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLm9wdGlvbi10aHJlZS1zY3JlZW5cIik7XG5sZXQgb3B0aW9uT25lSW1nID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5vcHRpb24tb25lLWltZ1wiKTtcbmxldCBvcHRpb25PbmVFbmQgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLm9wdGlvbi1vbmUtZW5kXCIpO1xuXG4vKiBXaGVuIHlvdSdyZSByZWFkeSB0byBtYWtlIGV2ZW50IGhhbmRsZXJzLCB1bmNvbW1lbnQgdGhlIGNvZGUgYmVsb3cuIFRoZW4gZmlsbCBpbiB0aGUgYmxhbmtzIHdpdGggdGhlIGNvcnJlY3QgdmFyaWFibGVzISAqL1xuXG5idXR0b25PbmUub25jbGljayA9IGZ1bmN0aW9uKCkge1xuICAgIG9wZW5pbmcuc3R5bGUuZGlzcGxheSA9IFwibm9uZVwiO1xuICAgIGJ1dHRvbnMuc3R5bGUuZGlzcGxheSA9IFwibm9uZVwiO1xuICAgIG9wdGlvbk9uZS5zdHlsZS5kaXNwbGF5ID0gXCJibG9ja1wiO1xuICAgIHRpdGxlLmlubmVySFRNTCA9IFwiU3RheSB3aGVyZSB5b3VyIGF0XCI7XG59O1xuXG5idXR0b25Ud28ub25jbGljayA9IGZ1bmN0aW9uKCkge1xuICAgIG9wZW5pbmcuc3R5bGUuZGlzcGxheSA9IFwibm9uZVwiO1xuICAgIGJ1dHRvbnMuc3R5bGUuZGlzcGxheSA9IFwibm9uZVwiO1xuICAgIG9wdGlvblR3by5zdHlsZS5kaXNwbGF5ID0gXCJibG9ja1wiO1xuICAgIHRpdGxlLmlubmVySFRNTCA9IFwiUnVuIGF3YXlcIjtcbn07XG5cbmJ1dHRvblRocmVlLm9uY2xpY2sgPSBmdW5jdGlvbigpIHtcbiAgICBvcGVuaW5nLnN0eWxlLmRpc3BsYXkgPSBcIm5vbmVcIjtcbiAgICBidXR0b25zLnN0eWxlLmRpc3BsYXkgPSBcIm5vbmVcIjtcbiAgICBvcHRpb25Ud28uc3R5bGUuZGlzcGxheSA9IFwiYmxvY2tcIjtcbiAgICB0aXRsZS5pbm5lckhUTUwgPSBcImlmIHlvdSBjaG9vc2UgWWVzXCI7XG59O1xuXG4iXX0=</script></body></html>
