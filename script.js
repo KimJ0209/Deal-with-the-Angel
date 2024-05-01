@@ -35,3 +35,4 @@ buttonThree.onclick = function() {
     optionTwo.style.display = "block";
     title.innerHTML = "if you choose Yes";
 };
+
